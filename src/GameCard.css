@@ -1,0 +1,19 @@
+.game-card{
+    background-color: rgb(35, 35, 35);
+    width: 30dvw;
+    height: 40dvh;
+    border-radius: 50px;
+}
+
+.game-image{
+    width: 15dvw;
+    height: 15dvh;
+    padding-top: 5dvh;
+}
+
+.game-description{
+    color: rgba(255, 255, 255, 0.503);
+    line-break: break-word;
+    width: 25dvw;
+    margin: 0 auto;
+}

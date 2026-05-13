@@ -57,9 +57,16 @@
   text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  padding: 32px;
+  align-content: center;
+  justify-content: center;
+}
+
+.warning-msg {
+  grid-column: 1 / -1;
 }
 
 body {
