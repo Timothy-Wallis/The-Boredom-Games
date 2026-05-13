@@ -14,7 +14,7 @@ export default function GameCard({title, description, imageURL, redirectURL}: Ga
             {imageURL ? <img src={imageURL} alt={title} className="game-image" /> : <img src={placeholder} alt={title} className="game-image" />}
             <h2 className="game-title">{title}</h2>
             <p className="game-description">{description}</p>
-            <button onClick={() => window.location.href = redirectURL} className="play-button">Play Now</button>
+            <a href={redirectURL} className="play-button">Play Now</a>
         </div>
     );
 }
