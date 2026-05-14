@@ -1,4 +1,3 @@
-import React, { type ReactElement } from 'react'
 import './App.css'
 
 const canvas = <canvas id="canvas" width={window.innerWidth - 200} height={(window.innerHeight / 2)}></canvas>
